@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/small_margin"
+    tools:context=".TampilActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_nama_obat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_obat"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/large_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_tanggal_kadaluarsa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/tanggal_kadaluarsa" />
+
+        <ImageView
+            android:id="@+id/iv_obat"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:contentDescription="@string/gambar"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/tv_efek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/efek"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tv_harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:text="@string/harga"
+            android:textSize="@dimen/medium_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_komposisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/komposisi"
+            android:textSize="@dimen/medium_text" />
+    </LinearLayout>
+</ScrollView>

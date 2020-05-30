@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">UAS 180030901 1</string>
+    <string name="nama_obat">Nama Obat</string>
+    <string name="tanggal_kadaluarsa">Tanggal Kadaluarsa</string>
+    <string name="gambar">Ilustrasi Gambar</string>
+    <string name="efek">Efek Samping</string>
+    <string name="harga">Harga</string>
+    <string name="komposisi">Komposisi</string>
+    <string name="hapus">Hapus Obat</string>
+    <string name="titik_dua">:</string>
+    <string name="simpan">Simpan</string>
+    <string name="data_obat">Data Obat</string>
+    <string name="pilih_tgl">Pilih</string>
+    <string name="tambah">Tambah Obat</string>
+</resources>
